@@ -3,6 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Epistemic Status: Hypothesis Model](https://img.shields.io/badge/Epistemic_Status-Hypothesis--Driven_Model-orange.svg)](#epistemic-status)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21855214.svg)](https://doi.org/10.5281/zenodo.21855214)
 
 This repository contains the computational framework, ordinary differential equation (ODE) solvers, global sensitivity analysis (LHS-SRCC), two-dimensional parameter-space routines, and full LaTeX source for evaluating the **Spike–PrP 2-Hit Proteostatic Framework**.
 
@@ -132,3 +133,13 @@ $$S(t) = \begin{cases} S_{\max} e^{-k_s t}, & t \le t_{\text{spike\_end}} \\ 0, 
 
 ```bash
 pip install numpy scipy matplotlib
+
+---
+
+## Canonical Record & Citation
+
+Marutani, Y. (2026). *Mathematical Modeling and Parameter-Space Analysis of the Spike-PrP Neurodegenerative Signaling Hypothesis: A 2-Hit Proteostatic Framework* (V1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21855214
+
+Concept DOI (all versions): https://doi.org/10.5281/zenodo.21855213
+
+This repository contains the computational framework (ODE solvers, global sensitivity analysis, parameter-space routines, and LaTeX source) corresponding to the archived record above.
